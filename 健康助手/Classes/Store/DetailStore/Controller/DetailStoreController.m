@@ -56,19 +56,20 @@
     
      self.navigationItem.rightBarButtonItem = item;
     [self.navigationItem.rightBarButtonItem setTitle:@"收藏"];
-     [self addContent];
     
-    if(_store ==nil)
-    {
-    [StoreTool DetailWithParam:@{@"id":@(serachID)} success:^(Store* store)
-     {
-         _store = store;
-         [self setFram];
-     }failure:^(NSError* err)
-     {
-         MyLog(@"%@",err);
-     }
-     ];}else{
+    self.navigationController.title = @"药店详情";
+    self.title = @"药店详情";
+    [self addContent];
+    
+    if(_store ==nil){
+        [StoreTool DetailWithParam:@{@"id":@(serachID)} success:^(Store* store){
+             _store = store;
+             [self setFram];
+         }failure:^(NSError* err){
+             MyLog(@"%@",err);
+         }
+         ];
+    }else{
         [self setFram];
     }
     // Do any additional setup after loading the view.

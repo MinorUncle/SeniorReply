@@ -51,14 +51,10 @@
 #pragma mark 监听item点击
 - (void)itemClick:(DockItem *)item
 {
-    // 0.通知代理
-    if ([_delegate respondsToSelector:@selector(dock:itemSelectedFrom:to:)]) {
-        [_delegate dock:self itemSelectedFrom:(int)(_selectedItem.tag) to:((int)item.tag)];
-    }
     
     // 1.取消选中当前选中的item
     _selectedItem.selected = NO;
-
+    
     // 2.选中点击的item
     item.selected = YES;
     
@@ -66,5 +62,10 @@
     _selectedItem = item;
     
     _selectedIndex = _selectedItem.tag;
+    // 0.通知代理
+    if ([_delegate respondsToSelector:@selector(dock:itemSelectedFrom:to:)]) {
+        [_delegate dock:self itemSelectedFrom:(int)(_selectedItem.tag) to:((int)item.tag)];
+    }
+  
 }
 @end

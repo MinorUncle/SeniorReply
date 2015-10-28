@@ -84,6 +84,26 @@
     
  
 }
+- (void)dock:(Dock *)dock itemSelectedFrom:(int)from to:(int)to
+{
+    [super dock:dock itemSelectedFrom:from to:to];
+    switch (_dock.selectedIndex) {
+        case 0:
+            self.title = @"疾病查找";
+            break;
+        case 1:
+            self.title = @"疾病分类";
+            break;
+        case 2:
+            self.title = @"病例收藏";
+            break;
+            
+            
+        default:
+            break;
+    }
+}
+
 
 /*
 #pragma mark - Navigation

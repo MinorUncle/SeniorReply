@@ -54,7 +54,7 @@
     
     
     //名称
-    rect = (CGRect){10.0,rect.origin.y + 10,self.bounds.size.width - self.imageView.frame.size.width -40,self.imageView.frame.size.height * 0.3};
+    rect = (CGRect){10.0,rect.origin.y + 10,self.bounds.size.width - self.imageView.frame.size.width -40,self.imageView.frame.size.height * 0.4};
     [self.name  setFrame:rect];
     
     

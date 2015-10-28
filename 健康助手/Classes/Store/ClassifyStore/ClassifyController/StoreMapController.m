@@ -139,7 +139,7 @@
     /*
      *do something
      */
-    [self startLocation];
+    [self showNearList];
     NSLog(@"附近数据更新");
 }
 
@@ -152,16 +152,22 @@
 
 -(void)showNearList
 {
-    double x = _userLocal.location.coordinate.longitude;
-    double y = _userLocal.location.coordinate.latitude;
+//    double x = _userLocal.location.coordinate.longitude;
+//    double y = _userLocal.location.coordinate.latitude;
+    
+    double x = 110;
+    double y = 30;
+
+    
     int limit = 5;
-    [StoreTool LocalWithParam:@{@"x":@(x),@"y":@(y),@"limit":@(limit)} success:^(NSArray *storeList) {
+    [StoreTool LocalWithParam:@{@"x":@(x),@"y":@(y),@"limit":@(limit),@"type":@"count"} success:^(NSArray *storeList) {
         _storeArry = storeList;
         
         NSMutableArray* annotations = [NSMutableArray array];
         for (Store* i in _storeArry) {
             CLLocationCoordinate2D coord = CLLocationCoordinate2DMake(i.localY, i.localX);
             NSString* title = i.name;
+            NSLog(@"coord -- %f -- %f ",coord.longitude,coord.latitude);
             
             BMKPointAnnotation* point = [[BMKPointAnnotation alloc]init];
             point.title = title;

@@ -13,6 +13,6 @@
 {
     Dock *_dock;
 }
-
+- (void)dock:(Dock *)dock itemSelectedFrom:(int)from to:(int)to;
 @property (nonatomic, readonly) UIViewController *selectedController;
 @end

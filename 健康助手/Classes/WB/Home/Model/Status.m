@@ -43,7 +43,7 @@
 //    MyLog(@"setSource");
     // <a href="http://app.weibo.com/t/feed/2qiXeb" rel="nofollow">好保姆</a>
 //    MyLog(@"%@", _source);
-    if (![source containsString:@">"]) {
+    if ([source rangeOfString:@">"].location == NSNotFound) {
         return;
     }
     

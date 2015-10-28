@@ -139,9 +139,11 @@
     DetailStoreController* controller = [[DetailStoreController alloc]initWithID:cell.storeModel.ID];
 
     if (self.Navigationdelegate == nil) {
+        self.navigationController.title = @"药店详情";
         [self.navigationController pushViewController:controller animated:YES];
     }else{
         [self.Navigationdelegate pushViewController:controller animated:YES];
+        self.Navigationdelegate.title = @"药店详情";
     }    //    cell.topImageView.image = [UIImage imageNamed:@"cellHeader.png"];
     
     return indexPath;

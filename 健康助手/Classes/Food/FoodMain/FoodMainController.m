@@ -86,6 +86,26 @@
     
  
 }
+- (void)dock:(Dock *)dock itemSelectedFrom:(int)from to:(int)to
+{
+    [super dock:dock itemSelectedFrom:from to:to];
+    switch (_dock.selectedIndex) {
+        case 0:
+            self.title = @"健康饮食";
+            break;
+        case 1:
+            self.title = @"饮食分类";
+            break;
+        case 2:
+            self.title = @"饮食收藏";
+            break;
+            
+            
+        default:
+            break;
+    }
+}
+
 
 /*
 #pragma mark - Navigation

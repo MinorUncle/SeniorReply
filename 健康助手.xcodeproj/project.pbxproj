@@ -4045,9 +4045,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "健康助手/健康助手-Prefix.pch";
 				INFOPLIST_FILE = "健康助手/健康助手-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.mapsdk.demo.IphoneMapSdkDemo;
-				PRODUCT_NAME = "健康助手";
+				PRODUCT_NAME = healty;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -4063,9 +4063,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "健康助手/健康助手-Prefix.pch";
 				INFOPLIST_FILE = "健康助手/健康助手-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.mapsdk.demo.IphoneMapSdkDemo;
-				PRODUCT_NAME = "健康助手";
+				PRODUCT_NAME = healty;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};

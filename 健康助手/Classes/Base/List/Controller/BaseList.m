@@ -63,6 +63,10 @@
     }
     return nil;
 }
+-(float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 50;
+}
 -(void)getData
 {
 }

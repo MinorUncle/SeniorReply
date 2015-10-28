@@ -404,74 +404,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x5065;&#x5eb7;&#x52a9;&#x624b;/Classes/Store/DetailStore/Controller/DetailStoreController.m"
-            timestampString = "467477002.761536"
+            timestampString = "467738735.622959"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__36-[DetailStoreController viewDidLoad]_block_invoke"
-                  moduleName = "&#x5065;&#x5eb7;&#x52a9;&#x624b;"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/weichengniandashu/Desktop/%E5%81%A5%E5%BA%B7%E5%8A%A9%E6%89%8B/%E5%81%A5%E5%BA%B7%E5%8A%A9%E6%89%8B/Classes/Store/DetailStore/Controller/DetailStoreController.m"
-                  timestampString = "467477002.768265"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "67"
-                  endingLineNumber = "67"
-                  offsetFromSymbolStart = "121">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__copy_helper_block_"
-                  moduleName = "&#x5065;&#x5eb7;&#x52a9;&#x624b;"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/weichengniandashu/Desktop/%E5%81%A5%E5%BA%B7%E5%8A%A9%E6%89%8B/%E5%81%A5%E5%BA%B7%E5%8A%A9%E6%89%8B/Classes/Store/DetailStore/Controller/DetailStoreController.m"
-                  timestampString = "467477002.768572"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "18">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__destroy_helper_block_"
-                  moduleName = "&#x5065;&#x5eb7;&#x52a9;&#x624b;"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/weichengniandashu/Desktop/%E5%81%A5%E5%BA%B7%E5%8A%A9%E6%89%8B/%E5%81%A5%E5%BA%B7%E5%8A%A9%E6%89%8B/Classes/Store/DetailStore/Controller/DetailStoreController.m"
-                  timestampString = "467477002.768775"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "14">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x5065;&#x5eb7;&#x52a9;&#x624b;/Classes/Store/DetailStore/Controller/DetailStoreController.m"
-            timestampString = "467477006.91316"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
@@ -483,27 +420,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x5065;&#x5eb7;&#x52a9;&#x624b;/Classes/Store/DetailStore/Controller/DetailStoreController.m"
-            timestampString = "467477009.363637"
+            timestampString = "467738735.622959"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x5065;&#x5eb7;&#x52a9;&#x624b;/Classes/Store/DetailStore/Controller/DetailStoreController.m"
-            timestampString = "467477414.722533"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
@@ -1269,6 +1190,54 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
             endingLineNumber = "33"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x5065;&#x5eb7;&#x52a9;&#x624b;/Classes/Store/ClassifyStore/ClassifyController/StoreMapController.m"
+            timestampString = "467732512.992269"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "-showNearList"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x5065;&#x5eb7;&#x52a9;&#x624b;/Classes/Store/DetailStore/Controller/DetailStoreController.m"
+            timestampString = "467737930.495774"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x5065;&#x5eb7;&#x52a9;&#x624b;/Classes/Store/DetailStore/Controller/DetailStoreController.m"
+            timestampString = "467737908.406509"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>

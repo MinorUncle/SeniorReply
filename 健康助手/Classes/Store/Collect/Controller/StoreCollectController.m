@@ -26,6 +26,7 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    self.title = @"附近药店";
     [self getData];
     [self.tableView reloadData];
 }

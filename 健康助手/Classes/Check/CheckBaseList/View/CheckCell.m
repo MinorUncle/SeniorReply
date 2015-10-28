@@ -56,7 +56,7 @@
     
     
     //名称
-    rect = (CGRect){CGRectGetMaxX(self.imageView.frame)+40,rect.origin.y + 10,self.bounds.size.width - self.imageView.frame.size.width,self.imageView.frame.size.height * 0.3};
+    rect = (CGRect){CGRectGetMaxX(self.imageView.frame)+40,rect.origin.y + 10,self.bounds.size.width - self.imageView.frame.size.width,self.imageView.frame.size.height * 0.4};
     [self.name  setFrame:rect];
     
     

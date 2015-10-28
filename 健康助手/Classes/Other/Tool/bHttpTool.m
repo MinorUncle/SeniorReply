@@ -34,7 +34,7 @@
     [client setDefaultHeader:@"apix-key" value:key];
     NSURLRequest *post = [client requestWithMethod:method path:path parameters:allParams];
     
-    
+    NSLog(@"allparams -----  %@",allParams);
     
         // 2.创建AFJSONRequestOperation对象
         NSOperation *op = [AFJSONRequestOperation JSONRequestOperationWithRequest:post

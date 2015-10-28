@@ -22,28 +22,11 @@
                     <animations/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <visualEffectView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6P3-gE-bnb">
+                <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c12-jY-cTP">
                     <rect key="frame" x="0.0" y="0.0" width="504" height="30"/>
-                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="YKk-ON-Zy4">
-                        <rect key="frame" x="0.0" y="0.0" width="504" height="30"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F2E-lK-cPb">
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="tLj-EO-Jev">
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <animations/>
-                                </view>
-                                <animations/>
-                                <vibrancyEffect>
-                                    <blurEffect style="light"/>
-                                </vibrancyEffect>
-                            </visualEffectView>
-                        </subviews>
-                        <animations/>
-                    </view>
                     <animations/>
-                    <blurEffect style="light"/>
-                </visualEffectView>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
                 <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="list_cover.png" translatesAutoresizingMaskIntoConstraints="NO" id="2zM-EG-OcN">
                     <rect key="frame" x="0.0" y="0.0" width="504" height="233"/>
                     <animations/>
@@ -92,13 +75,10 @@
             <constraints>
                 <constraint firstItem="19x-nQ-OQa" firstAttribute="width" secondItem="w8o-JN-ufs" secondAttribute="height" id="0UX-e4-6sE"/>
                 <constraint firstItem="Aeg-nb-owq" firstAttribute="width" secondItem="clg-88-WND" secondAttribute="width" id="4C8-AG-T5G"/>
-                <constraint firstItem="6P3-gE-bnb" firstAttribute="height" secondItem="w8o-JN-ufs" secondAttribute="height" id="Ata-En-MHL"/>
                 <constraint firstItem="Aeg-nb-owq" firstAttribute="leading" secondItem="clg-88-WND" secondAttribute="leading" id="Aya-LD-rnR"/>
                 <constraint firstAttribute="trailing" secondItem="XX7-FP-jnC" secondAttribute="trailing" constant="10" id="B9y-mj-yYh"/>
-                <constraint firstItem="6P3-gE-bnb" firstAttribute="width" secondItem="2zM-EG-OcN" secondAttribute="width" id="HTm-HX-Qfs"/>
-                <constraint firstItem="6P3-gE-bnb" firstAttribute="top" secondItem="w8o-JN-ufs" secondAttribute="top" id="JkH-ol-vcV"/>
                 <constraint firstAttribute="bottom" secondItem="2zM-EG-OcN" secondAttribute="bottom" id="Jwp-6p-qtJ"/>
-                <constraint firstItem="6P3-gE-bnb" firstAttribute="leading" secondItem="w8o-JN-ufs" secondAttribute="leading" id="KD0-Xy-eoP"/>
+                <constraint firstItem="c12-jY-cTP" firstAttribute="height" secondItem="w8o-JN-ufs" secondAttribute="height" id="LHR-FV-5iQ"/>
                 <constraint firstItem="19x-nQ-OQa" firstAttribute="height" secondItem="w8o-JN-ufs" secondAttribute="height" id="Lrb-E9-HBh"/>
                 <constraint firstItem="XX7-FP-jnC" firstAttribute="top" secondItem="19x-nQ-OQa" secondAttribute="top" id="N2V-ae-dhe"/>
                 <constraint firstAttribute="bottom" secondItem="clg-88-WND" secondAttribute="bottom" id="OTH-zZ-RBK"/>
@@ -108,7 +88,9 @@
                 <constraint firstItem="clg-88-WND" firstAttribute="height" secondItem="2zM-EG-OcN" secondAttribute="height" multiplier="0.3" id="a3d-cC-W0s"/>
                 <constraint firstItem="XX7-FP-jnC" firstAttribute="leading" secondItem="19x-nQ-OQa" secondAttribute="trailing" id="dpA-Uy-EUy"/>
                 <constraint firstItem="w8o-JN-ufs" firstAttribute="leading" secondItem="mKi-lG-HLU" secondAttribute="leading" id="fqb-pa-P0z"/>
+                <constraint firstItem="c12-jY-cTP" firstAttribute="top" secondItem="mKi-lG-HLU" secondAttribute="top" id="gsr-Gp-2Zv"/>
                 <constraint firstItem="clg-88-WND" firstAttribute="leading" secondItem="mKi-lG-HLU" secondAttribute="leading" id="hhh-DY-dHi"/>
+                <constraint firstItem="c12-jY-cTP" firstAttribute="width" secondItem="2zM-EG-OcN" secondAttribute="width" id="i86-cB-xbM"/>
                 <constraint firstItem="Aeg-nb-owq" firstAttribute="height" secondItem="clg-88-WND" secondAttribute="height" id="kwZ-7M-Ewm"/>
                 <constraint firstItem="2zM-EG-OcN" firstAttribute="top" secondItem="mKi-lG-HLU" secondAttribute="top" id="nQB-iI-hVF"/>
                 <constraint firstItem="2zM-EG-OcN" firstAttribute="leading" secondItem="mKi-lG-HLU" secondAttribute="leading" id="pml-y3-cjQ"/>
@@ -119,6 +101,7 @@
                 <constraint firstItem="19x-nQ-OQa" firstAttribute="top" secondItem="w8o-JN-ufs" secondAttribute="top" id="s0o-Fx-Lpc"/>
                 <constraint firstItem="oxG-cu-U5g" firstAttribute="top" secondItem="mKi-lG-HLU" secondAttribute="top" id="tvk-zx-QQA"/>
                 <constraint firstItem="19x-nQ-OQa" firstAttribute="leading" secondItem="w8o-JN-ufs" secondAttribute="trailing" constant="15" id="wtS-t2-pp4"/>
+                <constraint firstItem="c12-jY-cTP" firstAttribute="leading" secondItem="mKi-lG-HLU" secondAttribute="leading" id="xKO-IT-NrV"/>
                 <constraint firstItem="Aeg-nb-owq" firstAttribute="top" secondItem="clg-88-WND" secondAttribute="top" id="xbe-AP-nBm"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>

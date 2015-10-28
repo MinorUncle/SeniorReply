@@ -22,7 +22,7 @@
     [StoreTool initPath];
     
     
-    [self setTitle:@"疾病查找"];
+    [self setTitle:@"药店大全"];
     // Do any additional setup after loading the view.
     self.edgesForExtendedLayout = UIRectEdgeNone;
     CGRect rect=_dock.frame;
@@ -77,12 +77,32 @@
     // 2.往Dock里面填充内容
     [_dock addItemWithIcon:@"tabbar_home.png" selectedIcon:@"tabbar_home_selected.png" title:@"热门"];
     
-    [_dock addItemWithIcon:@"tabbar_message_center.png" selectedIcon:@"tabbar_message_center_selected.png" title:@"分类"];
+    [_dock addItemWithIcon:@"tabbar_message_center.png" selectedIcon:@"tabbar_message_center_selected.png" title:@"附近"];
     
     [_dock addItemWithIcon:@"tabbar_message_center.png" selectedIcon:@"tabbar_message_center_selected.png" title:@"收藏"];
     
     
  
+}
+
+- (void)dock:(Dock *)dock itemSelectedFrom:(int)from to:(int)to
+{
+    [super dock:dock itemSelectedFrom:from to:to];
+    switch (_dock.selectedIndex) {
+        case 0:
+            self.title = @"药店大全";
+            break;
+        case 1:
+            self.title = @"附近药店";
+            break;
+        case 2:
+            self.title = @"药店收藏";
+            break;
+
+            
+        default:
+            break;
+    }
 }
 
 /*
