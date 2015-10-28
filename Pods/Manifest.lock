@@ -1,0 +1,13 @@
+PODS:
+  - BaiduMapKit (2.9.0.1)
+  - UMengSocial (4.2.5)
+
+DEPENDENCIES:
+  - BaiduMapKit (~> 2.9.0.1)
+  - UMengSocial (~> 4.2.5)
+
+SPEC CHECKSUMS:
+  BaiduMapKit: 01fc27c9f4dcb7139cd6a808e00555a0ba6826e4
+  UMengSocial: 76fb557ec9d2749a63dde17c28ab915f4642e52d
+
+COCOAPODS: 0.39.0

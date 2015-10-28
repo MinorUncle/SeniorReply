@@ -1,0 +1,1 @@
+../../../../BaiduMapKit/iosSDK/BaiduMapAPI_Search.framework/Headers/BMKRouteSearchType.h
