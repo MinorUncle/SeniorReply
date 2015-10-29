@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1802EC9D181B723800249C84"
-               BuildableName = "&#x5065;&#x5eb7;&#x52a9;&#x624b;.app"
+               BuildableName = "healty.app"
                BlueprintName = "&#x5065;&#x5eb7;&#x52a9;&#x624b;"
                ReferencedContainer = "container:&#x5065;&#x5eb7;&#x52a9;&#x624b;.xcodeproj">
             </BuildableReference>
@@ -23,37 +23,40 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1802EC9D181B723800249C84"
-            BuildableName = "&#x5065;&#x5eb7;&#x52a9;&#x624b;.app"
+            BuildableName = "healty.app"
             BlueprintName = "&#x5065;&#x5eb7;&#x52a9;&#x624b;"
             ReferencedContainer = "container:&#x5065;&#x5eb7;&#x52a9;&#x624b;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1802EC9D181B723800249C84"
-            BuildableName = "&#x5065;&#x5eb7;&#x52a9;&#x624b;.app"
+            BuildableName = "healty.app"
             BlueprintName = "&#x5065;&#x5eb7;&#x52a9;&#x624b;"
             ReferencedContainer = "container:&#x5065;&#x5eb7;&#x52a9;&#x624b;.xcodeproj">
          </BuildableReference>
@@ -62,17 +65,17 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1802EC9D181B723800249C84"
-            BuildableName = "&#x5065;&#x5eb7;&#x52a9;&#x624b;.app"
+            BuildableName = "healty.app"
             BlueprintName = "&#x5065;&#x5eb7;&#x52a9;&#x624b;"
             ReferencedContainer = "container:&#x5065;&#x5eb7;&#x52a9;&#x624b;.xcodeproj">
          </BuildableReference>

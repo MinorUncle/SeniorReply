@@ -47,6 +47,7 @@
     [self.tableView addLegendHeaderWithRefreshingBlock:^{
         
         [CheckTool ListWithParam:@{@"id":@(temSelf.ID),@"page":@(temSelf.currentPage)} success:^(NSArray *checks) {
+            
             temSelf.currentPage ++;
             [temSelf.check addObjectsFromArray:checks];
             
@@ -55,16 +56,15 @@
             [temSelf.tableView.footer setHidden:NO];
 
         } failure:^(NSError *err) {
+            
             MyLog(@"err---%@",err);
             [temSelf.tableView.header endRefreshing];
             [temSelf.tableView.footer setHidden:NO];
 
         }];
     }];
+    
     [self.tableView.header beginRefreshing];
-
-    
-    
     
 }
 -(void)buildUI

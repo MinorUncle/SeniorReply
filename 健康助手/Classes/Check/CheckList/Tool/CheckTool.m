@@ -160,7 +160,13 @@ static NSMutableArray* _currectCheck;
     //离线状态
     if ([[ConnentTool sharedConnentTool] mainScanType] == kscanTypeWithoutNet) {
         
-        arry = [[CheckSQLiteManager sharedCheckSQLiteManager] queryCheckWithFilter:nil limit:20 offset:_offlineListNumber];
+        NSInteger idDex = [param[@"id"] integerValue];
+        NSString* filter = nil;
+        if (idDex != 0) {
+            filter = [NSString stringWithFormat:@" id = %ld ",(long)idDex];
+        }
+        
+        arry = [[CheckSQLiteManager sharedCheckSQLiteManager] queryCheckWithFilter:filter limit:20 offset:_offlineListNumber];
         _offlineListNumber +=arry.count;
         success(arry);
         return;

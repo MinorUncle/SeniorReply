@@ -240,7 +240,13 @@ static NSMutableArray * _currectFood;
     //离线状态
     if ([[ConnentTool sharedConnentTool] mainScanType] == kscanTypeWithoutNet) {
     
-        arry = [[FoodSQLiteManager sharedFoodSQLiteManager] queryFoodWithFilter:nil limit:20 offset:_offlineListNumber];
+        NSInteger idDex = [param[@"id"] integerValue];
+        NSString* filter = nil;
+        if (idDex != 0) {
+            filter = [NSString stringWithFormat:@" id = %ld ",(long)idDex];
+        }
+        
+        arry = [[FoodSQLiteManager sharedFoodSQLiteManager] queryFoodWithFilter:filter limit:20 offset:_offlineListNumber];
         _offlineListNumber +=arry.count;
         success(arry);
         return;

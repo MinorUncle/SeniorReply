@@ -29,7 +29,7 @@ static NSString* kFile;
     classPath = _class;
     searchPath = serach;
     detailPath = detail;
-    localPath = storeList;
+    localPath = storeLocalList;
     kFile =  [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0] stringByAppendingPathComponent:fileName];
     
 }

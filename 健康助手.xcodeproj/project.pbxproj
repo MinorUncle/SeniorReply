@@ -471,7 +471,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1802EC9E181B723900249C84 /* 健康助手.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "健康助手.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1802EC9E181B723900249C84 /* healty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = healty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1802ECA1181B723900249C84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1802ECA3181B723900249C84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1802ECA5181B723900249C84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -493,8 +493,8 @@
 		AE19F2ED1B70609300B7A0F5 /* Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Check.m; sourceTree = "<group>"; };
 		AE19F2F11B70609300B7A0F5 /* CheckTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckTool.h; path = CheckList/Tool/CheckTool.h; sourceTree = "<group>"; };
 		AE19F2F21B70609300B7A0F5 /* CheckTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheckTool.m; path = CheckList/Tool/CheckTool.m; sourceTree = "<group>"; };
-		AE19F2F81B70609300B7A0F5 /* CheckMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckMainController.h; sourceTree = "<group>"; };
-		AE19F2F91B70609300B7A0F5 /* CheckMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckMainController.m; sourceTree = "<group>"; };
+		AE19F2F81B70609300B7A0F5 /* CheckMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckMainController.h; path = ../CheckMainController.h; sourceTree = "<group>"; };
+		AE19F2F91B70609300B7A0F5 /* CheckMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheckMainController.m; path = ../CheckMainController.m; sourceTree = "<group>"; };
 		AE19F2FF1B70609300B7A0F5 /* CheckClassifyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckClassifyController.h; sourceTree = "<group>"; };
 		AE19F3001B70609300B7A0F5 /* CheckClassifyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckClassifyController.m; sourceTree = "<group>"; };
 		AE19F3051B70609300B7A0F5 /* CheckCollectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckCollectController.h; sourceTree = "<group>"; };
@@ -720,8 +720,8 @@
 		AEE6A9001B65FCF0005DF6A8 /* MainBoxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainBoxController.m; sourceTree = "<group>"; };
 		AEE6A9011B65FCF0005DF6A8 /* MainBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainBoxView.h; sourceTree = "<group>"; };
 		AEE6A9021B65FCF0005DF6A8 /* MainBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainBoxView.m; sourceTree = "<group>"; };
-		AEE6A9051B65FCF0005DF6A8 /* MediclineMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediclineMainController.h; sourceTree = "<group>"; };
-		AEE6A9061B65FCF0005DF6A8 /* MediclineMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediclineMainController.m; sourceTree = "<group>"; };
+		AEE6A9051B65FCF0005DF6A8 /* MediclineMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MediclineMainController.h; path = ../MediclineMainController.h; sourceTree = "<group>"; };
+		AEE6A9061B65FCF0005DF6A8 /* MediclineMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MediclineMainController.m; path = ../MediclineMainController.m; sourceTree = "<group>"; };
 		AEE6A9101B65FCF0005DF6A8 /* AccountsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountsController.h; sourceTree = "<group>"; };
 		AEE6A9111B65FCF0005DF6A8 /* AccountsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountsController.m; sourceTree = "<group>"; };
 		AEE6A9151B65FCF0005DF6A8 /* GroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupCell.h; sourceTree = "<group>"; };
@@ -1154,7 +1154,7 @@
 		1802EC9F181B723900249C84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1802EC9E181B723900249C84 /* 健康助手.app */,
+				1802EC9E181B723900249C84 /* healty.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1243,8 +1243,6 @@
 			isa = PBXGroup;
 			children = (
 				AE19F2F71B70609300B7A0F5 /* Controller */,
-				AE19F2F81B70609300B7A0F5 /* CheckMainController.h */,
-				AE19F2F91B70609300B7A0F5 /* CheckMainController.m */,
 			);
 			path = CheckMain;
 			sourceTree = "<group>";
@@ -1252,6 +1250,8 @@
 		AE19F2F71B70609300B7A0F5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				AE19F2F81B70609300B7A0F5 /* CheckMainController.h */,
+				AE19F2F91B70609300B7A0F5 /* CheckMainController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2558,8 +2558,6 @@
 			isa = PBXGroup;
 			children = (
 				AEE6A9041B65FCF0005DF6A8 /* Controller */,
-				AEE6A9051B65FCF0005DF6A8 /* MediclineMainController.h */,
-				AEE6A9061B65FCF0005DF6A8 /* MediclineMainController.m */,
 			);
 			path = MediclineMain;
 			sourceTree = "<group>";
@@ -2567,6 +2565,8 @@
 		AEE6A9041B65FCF0005DF6A8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				AEE6A9051B65FCF0005DF6A8 /* MediclineMainController.h */,
+				AEE6A9061B65FCF0005DF6A8 /* MediclineMainController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -3416,7 +3416,7 @@
 			);
 			name = "健康助手";
 			productName = "新浪微博";
-			productReference = 1802EC9E181B723900249C84 /* 健康助手.app */;
+			productReference = 1802EC9E181B723900249C84 /* healty.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

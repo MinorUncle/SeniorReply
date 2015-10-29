@@ -139,7 +139,6 @@
     /*
      *do something
      */
-    [self showNearList];
     NSLog(@"附近数据更新");
 }
 
@@ -147,18 +146,16 @@
     /*
      *do something
      */
+    
+    [self showNearList];
     NSLog(@"my handleDoubleTap");
 }
 
 -(void)showNearList
 {
-//    double x = _userLocal.location.coordinate.longitude;
-//    double y = _userLocal.location.coordinate.latitude;
-    
-    double x = 110;
-    double y = 30;
+    double x = _userLocal.location.coordinate.longitude;
+    double y = _userLocal.location.coordinate.latitude;
 
-    
     int limit = 5;
     [StoreTool LocalWithParam:@{@"x":@(x),@"y":@(y),@"limit":@(limit),@"type":@"count"} success:^(NSArray *storeList) {
         _storeArry = storeList;

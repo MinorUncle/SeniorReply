@@ -162,8 +162,13 @@ static NSMutableArray* _currectMedicine;
     NSArray* arry;
     //离线状态
     if ([[ConnentTool sharedConnentTool] mainScanType] == kscanTypeWithoutNet) {
+        NSInteger idDex = [param[@"id"] integerValue];
+        NSString* filter = nil;
+        if (idDex != 0) {
+            filter = [NSString stringWithFormat:@" id = %ld ",(long)idDex];
+        }
         
-        arry = [[MedicineSQLiteManager sharedMedicineSQLiteManager] queryMedicineWithFilter:nil limit:20 offset:_offlineListNumber];
+        arry = [[MedicineSQLiteManager sharedMedicineSQLiteManager] queryMedicineWithFilter:filter limit:20 offset:_offlineListNumber];
         _offlineListNumber +=arry.count;
         success(arry);
         return;

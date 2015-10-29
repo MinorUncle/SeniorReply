@@ -171,8 +171,20 @@ static NSMutableArray* _currectDisease;
     //离线状态
     if ([[ConnentTool sharedConnentTool] mainScanType] == kscanTypeWithoutNet) {
         
-        arry = [[DiseaseSQLiteManager sharedDiseaseSQLiteManager] queryDiseaseWithFilter:nil limit:20 offset:_offlineListNumber];
-        _offlineListNumber +=arry.count;
+        NSInteger idDex = [param[@"id"] integerValue];
+        NSString* filter = nil;
+        if (idDex != 0) {
+            filter = [NSString stringWithFormat:@" id = %ld ",(long)idDex];
+        }
+        
+        idDex = [param[@"pid"] integerValue];
+
+        if (idDex != 0) {
+            filter = [NSString stringWithFormat:@" id = %ld ",(long)idDex];
+        }
+        
+        arry = [[DiseaseSQLiteManager sharedDiseaseSQLiteManager] queryDiseaseWithFilter:filter limit:20 offset:_offlineListNumber];
+        _offlineListNumber += arry.count;
         success(arry);
         return;
     }
